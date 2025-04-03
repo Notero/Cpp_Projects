@@ -12,27 +12,8 @@ This program encrypts a plaintext file using the **Hill Cipher** algorithm with 
 To compile and run this assignment (`pa01`) in any of the supported languages:
 
 ### C++
-g++ -o pa01 pa01.cpp
-./pa01 kX.txt pX.txt
-
-### C
-gcc -o pa01 pa01.c
-./pa01 kX.txt pX.txt
-
-### Java
-javac pa01.java
-java pa01 kX.txt pX.txt
-
-### Go
-go build pa01.go
-./pa01 kX.txt pX.txt
-
-### Rust
-rustc pa01.rs
-./pa01 kX.txt pX.txt
-
-### Python
-python3 pa01.py kX.txt pX.txt
+    g++ -o pa01 pa01.cpp
+    ./pa01 kX.txt pX.txt
 
 Where:
 - `kX.txt` is the **key matrix file**
@@ -41,16 +22,16 @@ Where:
 ## 📥 Input Format
 
 ### Key File (`kX.txt`)
-3
-6 24 1
-13 16 10
-20 17 15
+    3
+    6 24 1
+    13 16 10
+    20 17 15
 
 - First line is the matrix size `n` (e.g., `3`)
 - Followed by `n x n` integers for the matrix
 
 ### Plaintext File (`pX.txt`)
-Attack at dawn! Retreat if needed.
+    Attack at dawn! Retreat if needed.
 
 - May contain punctuation, whitespace, numbers (all of which are ignored)
 
