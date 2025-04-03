@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # 🔐 Hill Cipher Encryption Tool (pa01)
 
 ## 📄 Description
