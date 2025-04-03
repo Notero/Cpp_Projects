@@ -1,5 +1,3 @@
-cat << EOF > README.md
-\`\`\`bash
 # ✅ Checksum Calculator (pa02)
 
 ## 📄 Description
