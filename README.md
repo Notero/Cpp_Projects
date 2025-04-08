@@ -47,7 +47,3 @@ For basic console programs:
 **Akin Korkmaz**  
 📧 akinkorkmaz13@gmail.com  
 🔗 [GitHub](https://github.com/Notero)
-
----
-
-> This repository reflects a solid foundation in C++ and practical applications in both systems programming and interactive media.
